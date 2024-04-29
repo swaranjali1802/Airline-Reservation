@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Flight Cancellation Form</h2>
+    <form action="#" method="post">
+        <label for="booking_id">Booking ID:</label>
+        <input type="text" id="booking_id" name="booking_id" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="reason">Reason for Cancellation:</label>
+        <select id="reason" name="reason" required>
+            <option value="">Select a reason</option>
+            <option value="Change of plans">Change of plans</option>
+            <option value="Emergency">Emergency</option>
+            <option value="Unforeseen circumstances">Unforeseen circumstances</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <input type="submit" value="Cancel Flight">
+    </form>
+</div>
+
